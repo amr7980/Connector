@@ -1,0 +1,30 @@
+{
+  "_id": ObjectId("..."),
+  "shopper_id": ObjectId("..."), 
+  "shipping_address": {
+    "name": "Jane Doe",
+    "line1": "456 Oak Street",
+    "line2": "Apt 7B",
+    "city": "Brooklyn",
+    "state": "NY",
+    "postal_code": "11201",
+    "country": "USA"
+  },
+  "billing_address": {
+    "name": "Jane Doe",
+    "line1": "456 Oak Street",
+    "line2": "Apt 7B",
+    "city": "Brooklyn",
+    "state": "NY",
+    "postal_code": "11201",
+    "country": "USA"
+  },
+  "payment_method": {
+    "type": "credit_card",
+    "provider": "Visa",
+    "last4": "1234",
+    "expiry": "08/28"
+  },
+  "created_at": ISODate("2025-08-03T12:00:00Z"),
+  "updated_at": ISODate("2025-08-03T12:00:00Z")
+}
